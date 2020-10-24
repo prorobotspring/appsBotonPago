@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<comment>Mensajes de validacion manejados por el CallCloseVirtualPOS</comment>
+	
+	<entry key="NAME">CallCloseVirtualPOS</entry>
+	
+	<entry key="SUCCESFUL_CODE">BCRM-03032-OM0000</entry>
+	<entry key="BCRM-03032-OM0000">Operacion Exitosa</entry>
+	
+	<entry key="ERROR_FUN_01">BCRM-03032-OM0001</entry>
+	<entry key="BCRM-03032-OM0001">Error Funcional en el servicio Close Virtual</entry>
+
+	<entry key="ERROR_TEC_03">BCRM-03032-EM0003</entry>
+	<entry key="BCRM-03032-EM0003">Error de ejecucion</entry>
+
+	<entry key="ERROR_TEC_04">BCRM-03032-EM0004</entry>
+    <entry key="BCRM-03032-EM0004">Error de comunicacion</entry>
+	
+	<entry key="Attempts_closePortalvirtual">3</entry>
+	<entry key="WaitTime_closePortalvirtual">500</entry>
+	<entry key="closePortalvirtual.endPoint">http://CFGLOBD06:8301/WSCloseVirtualPos/services/CloseVirtualPos?wsdl</entry>
+	<entry key="closePortalvirtual.localPart">CloseVirtualPos</entry>
+	<entry key="closePortalvirtual.namespaceURI">http://digitel.com.ve/eai/BSMO/CloseVirtualPos/</entry>
+	
+	<entry key="closePortalvirtual.timeOut">20000</entry>
+	<entry key="SUCCESFULL_CODE_VIRTUAL">OM0000</entry>
+
+	<!-- <entry key="POS_NUMBER">16</entry>	-->  <!--  398  -->
+	<entry key="POS_NUMBER">398</entry>   
+	<entry key="USERNAME_PAYMENT_SIR">asw_bdp</entry>
+	<entry key="PaymentSirType">TC;</entry> <!-- TD; -->	
+	<entry key="batch_number">10000</entry>
+	
+	<entry key="FORMAT_DATE">dd/MM/yyyy</entry>
+	<entry key="CHANNEL">ASWEB</entry>
+	
+</properties>
